@@ -16,7 +16,7 @@ B: Về phía các nhà quản lý:
 Các công nghệ sử dung: Spring Framework, Eclipse.
 
 Các Thành viên:
-1. Hoàng Thế Thương
+1. Hoàng Thế Thượng
 2. Đinh Văn Bình
 3. Trịnh Quang Trung
 4. Phùng Văn Sỹ
