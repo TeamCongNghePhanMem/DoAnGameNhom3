@@ -1,6 +1,8 @@
 HusShop_Fashion là một trang Web bán quần áo thời trang, chia sẻ và cập nhật thông tin về thời trang dành cho những khách hàng có nhu cầu mua sắm. Giúp cho việc mua sắm của khách hàng chở nên đơn giản, thuận tiện.
 Mục tiêu chính của trang Web là xây dựng một cộng đồng mua bán quàn áo, cùng nhau chia sẻ kiến thức về thời trang, giá cả, mua bán hàng qua Web, công cụ hỗ trợ kết nối tốt nhất giữa người mua và người bán.
+
 Các chức năng chính:
+
 A: Về phía khách hàng:
 1. Tìm kiếm
 2. Xem thông tin của sản phẩm
