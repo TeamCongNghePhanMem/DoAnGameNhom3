@@ -13,7 +13,7 @@ B: Về phía các nhà quản lý:
 1. Thêm sửa xóa thông tin sản phẩm
 2. Tương tác với khách hàng.
 
-Các công nghệ sử dung: Spring Framework, Eclipse.
+Các công nghệ sử dung JSP & Servlet , Netbean.
 
 Các Thành viên:
 1. Hoàng Thế Thượng
