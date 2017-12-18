@@ -5,3 +5,6 @@ buoc 3:
 buoc 4:
 buoc 5:
 buoc 6:
+
+
+thay doi tai buoc 6
