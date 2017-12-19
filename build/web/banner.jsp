@@ -15,9 +15,9 @@
                     <!-- Slideshow 4 -->
                     <div class="slider">
                         <ul class="rslides" id="slider1">
-                            <li><img src="images/banner.jpg" alt="">
-                            </li>
                             <li><img src="images/banner1.jpg" alt="">
+                            </li>
+                            <li><img src="images/banner3.jpg" alt="">
                             </li>
                             <li><img src="images/banner.jpg" alt="">
                             </li>
@@ -28,12 +28,10 @@
 
                     <div class="banner-bottom">
                         <div class="banner-matter">
-                            <p>Childish Gambino - Camp Now Available for just $9.99</p> 
-                            <a href="single.html" class="hvr-shutter-in-vertical ">Purchase</a>
+                            <p>Khuyễn mãi mùa Noel - Xả hàng đồng giá 99k</p> 
+                            <a href="single.html" class="hvr-shutter-in-vertical ">Đặt hàng</a>
                         </div>
-                        <div class="purchase">
-                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2 ">Purchase</a>
-                        </div>
+                        
                         <div class="clearfix"></div>
                     </div>
                 </div>				

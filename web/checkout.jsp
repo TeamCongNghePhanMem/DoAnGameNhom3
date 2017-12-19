@@ -1,12 +1,11 @@
 
-
 <%@page import="model.Users"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Checkout</title>
+        <title>Thanh Toán</title>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery.min.js"></script>
@@ -78,14 +77,14 @@
                     <h2 class="account-in">checkout</h2>
                     <form action="CheckOutServlet" method="POST">
                         <div>
-                            <span>Address *</span>
+                            <span>Địa chỉ *</span>
                             <input type="text" name="address">
                         </div> 	
                         <div>
-                            <span>Payment *</span>
+                            <span>Thanh toán *</span>
                             <select name="payment">
-                                <option value="Bank transfer"> Bank transfer</option>
-                                <option value="Live"> Live</option>
+                                <option value="Bank transfer"> Ngân hàng chuyển khoản</option>
+                                <option value="Live"> Trả tiền mặt</option>
                             </select>
                         </div> 			
                         <input type="submit" value="Checkout"> 

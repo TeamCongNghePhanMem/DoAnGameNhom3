@@ -12,7 +12,7 @@
         <div class="container">
             <div class="content">
                 <div class="content-top">
-                    <h3 class="future">FEATURED</h3>
+                    <h3 class="future">Sản phẩm</h3>
                     <div class="content-top-in">
                         <div class="col-md-3 md-col">
                             <div class="col-md">
@@ -20,7 +20,7 @@
                                 <div class="top-content">
                                     <h5><a href="single.html">Mascot Kitty - White</a></h5>
                                     <div class="white">
-                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2 ">ADD TO CART</a>
+                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2 ">Thêm vào giỏ hàng</a>
                                         <p class="dollar"><span class="in-dollar">$</span><span>2</span><span>0</span></p>
                                         <div class="clearfix"></div>
                                     </div>
@@ -34,7 +34,7 @@
                                 <div class="top-content">
                                     <h5><a href="single.html">Bite Me</a></h5>
                                     <div class="white">
-                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                         <p class="dollar"><span class="in-dollar">$</span><span>3</span><span>0</span></p>
                                         <div class="clearfix"></div>
                                     </div>
@@ -47,7 +47,7 @@
                                 <div class="top-content">
                                     <h5><a href="single.html">Little Fella</a></h5>
                                     <div class="white">
-                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                         <p class="dollar"><span class="in-dollar">$</span><span>5</span><span>0</span></p>
                                         <div class="clearfix"></div>
                                     </div>
@@ -60,7 +60,7 @@
                                 <div class="top-content">
                                     <h5><a href="single.html">Astral Cruise</a></h5>
                                     <div class="white">
-                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                        <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                         <p class="dollar"><span class="in-dollar">$</span><span>4</span><span>5</span></p>
                                         <div class="clearfix"></div>
                                     </div>
@@ -72,7 +72,7 @@
                 </div>
                 <!---->
                 <div class="content-middle">
-                    <h3 class="future">BRANDS</h3>
+                    <h3 class="future">Thương Hiệu</h3>
                     <div class="content-middle-in">
                         <ul id="flexiselDemo1">			
                             <li><img src="images/ap.png"/></li>
@@ -114,19 +114,19 @@
                 </div>
                 <!---->
                 <div class="content-bottom">
-                    <h3 class="future">LATEST</h3>
+                    <h3 class="future">Hàng mới về</h3>
                     <div class="content-bottom-in">
                         <ul id="flexiselDemo2">			
                             <li><div class="col-md men">
                                     <a href="single.html" class="compare-in "><img  src="images/pi4.jpg" alt="" />
                                         <div class="compare in-compare">
-                                            <span>Add to Compare</span>
-                                            <span>Add to Whislist</span>
+                                            <span>Thêm vào so sánh</span>
+                                            <span>Thêm vào danh sách muốn mua</span>
                                         </div></a>
                                     <div class="top-content bag">
                                         <h5><a href="single.html">Symbolic Bag</a></h5>
                                         <div class="white">
-                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                             <p class="dollar"><span class="in-dollar">$</span><span>4</span><span>0</span></p>
                                             <div class="clearfix"></div>
                                         </div>
@@ -135,13 +135,13 @@
                             <li><div class="col-md men">
                                     <a href="single.html" class="compare-in "><img  src="images/pi5.jpg" alt="" />
                                         <div class="compare in-compare">
-                                            <span>Add to Compare</span>
-                                            <span>Add to Whislist</span>
+                                            <span>Thêm vào so sánh</span>
+                                            <span>Thêm vào danh sách muốn mua</span>
                                         </div></a>	
                                     <div class="top-content bag">
                                         <h5><a href="single.html">Interesting Read</a></h5>
                                         <div class="white">
-                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                             <p class="dollar"><span class="in-dollar">$</span><span>2</span><span>5</span></p>
                                             <div class="clearfix"></div>
                                         </div>
@@ -150,13 +150,13 @@
                             <li><div class="col-md men">
                                     <a href="single.html" class="compare-in "><img  src="images/pi6.jpg" alt="" />
                                         <div class="compare in-compare">
-                                            <span>Add to Compare</span>
-                                            <span>Add to Whislist</span>
+                                            <span>Thêm vào so sánh</span>
+                                            <span>Thêm vào danh sách muốn mua</span>
                                         </div></a>	
                                     <div class="top-content bag">
                                         <h5><a href="single.html">The Carter</a></h5>
                                         <div class="white">
-                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                             <p class="dollar"><span class="in-dollar">$</span><span>1</span><span>0</span></p>
                                             <div class="clearfix"></div>
                                         </div>
@@ -165,13 +165,13 @@
                             <li><div class="col-md men">
                                     <a href="single.html" class="compare-in "><img  src="images/pi7.jpg" alt="" />
                                         <div class="compare in-compare">
-                                            <span>Add to Compare</span>
-                                            <span>Add to Whislist</span>
+                                           <span>Thêm vào so sánh</span>
+                                            <span>Thêm vào danh sách muốn mua</span>
                                         </div></a>	
                                     <div class="top-content bag">
                                         <h5><a href="single.html">Onesie</a></h5>
                                         <div class="white">
-                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                            <a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                             <p class="dollar"><span class="in-dollar">$</span><span>6</span><span>0</span></p>
                                             <div class="clearfix"></div>
                                         </div>

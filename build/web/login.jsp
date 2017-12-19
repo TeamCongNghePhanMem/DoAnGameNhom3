@@ -12,7 +12,7 @@
 
             <div class="container">
                 <div class="account">
-                    <h2 class="account-in">login</h2>
+                    <h2 class="account-in">Đăng nhập</h2>
                     <form action="UsersServlet" method="POST">
                         <%if(request.getParameter("error")!=null){%>
                         <div>
@@ -20,11 +20,11 @@
                         </div> 
                         <%}%>
                         <div>
-                            <span>Username *</span>
+                            <span>Tên đăng nhâp *</span>
                             <input type="text" name="email">
                         </div> 	
                          <div> 
-                            <span class="word">Password *</span>
+                            <span class="word">Mật khẩu *</span>
                             <input type="password" name="pass">
                         </div>			
                         <input type="hidden" value="login" name="command">

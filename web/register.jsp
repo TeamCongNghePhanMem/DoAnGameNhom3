@@ -32,10 +32,10 @@
 
             <div class="container">
                 <div class="account">
-                    <h2 class="account-in">Register</h2>
+                    <h2 class="account-in">Đăng ký</h2>
                     <form action="UsersServlet" method="POST">
                         <div>
-                            <span class="word">Username *</span>
+                            <span class="word">Tên đăng nhập *</span>
                             <input type="text" name="email" id="email">
                             <span id="user-result"></span>
                         </div> 	

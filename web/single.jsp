@@ -1,3 +1,8 @@
+<%-- 
+    Document   : detail
+    Created on : 11-May-2016, 11:19:08 PM
+    Author     : TUNGDUONG
+--%>
 
 <%@page import="model.Product"%>
 <%@page import="dao.ProductDAO"%>
@@ -91,7 +96,7 @@
                             <h4><%=product.getProductName()%></h4>
                             <div class="para-grid">
                                 <span class="add-to">$<%=product.getProductPrice()%></span>
-                                <a href="#" class="hvr-shutter-in-vertical cart-to">Add to Cart</a>					
+                                <a href="#" class="hvr-shutter-in-vertical cart-to">Thêm vào giỏ hàng</a>					
                                 <div class="clearfix"></div>
                             </div>
                             <h5>100 items in stock</h5>
@@ -123,7 +128,7 @@
                             </div>
                             <p><%=product.getProductDescription()%></p>
 
-                            <a href="#" class="hvr-shutter-in-vertical ">More details</a>
+                            <a href="#" class="hvr-shutter-in-vertical ">Chi tiết sản phẩm</a>
 
                         </div>
                     </div>
@@ -135,7 +140,7 @@
                                 <div class="top-content">
                                     <h5>Mascot Kitty - White</h5>
                                     <div class="white">
-                                        <a href="#" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                        <a href="#" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                         <p class="dollar"><span class="in-dollar">$</span><span>2</span><span>0</span></p>
                                         <div class="clearfix"></div>
                                     </div>
@@ -148,7 +153,7 @@
                                 <div class="top-content">
                                     <h5>Mascot Kitty - White</h5>
                                     <div class="white">
-                                        <a href="#" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                        <a href="#" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                         <p class="dollar"><span class="in-dollar">$</span><span>2</span><span>0</span></p>
                                         <div class="clearfix"></div>
                                     </div>
@@ -161,7 +166,7 @@
                                 <div class="top-content">
                                     <h5>Mascot Kitty - White</h5>
                                     <div class="white">
-                                        <a href="#" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+                                        <a href="#" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">Thêm vào giỏ hàng</a>
                                         <p class="dollar"><span class="in-dollar">$</span><span>2</span><span>0</span></p>
                                         <div class="clearfix"></div>
                                     </div>
