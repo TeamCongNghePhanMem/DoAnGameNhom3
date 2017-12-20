@@ -52,19 +52,16 @@
                     <div class="header-in">
                         <ul class="icon1 sub-icon1">
                             <%if (users != null) {%>
-                            <li><a href="wishlist.html"><%=users.getUserEmail()%></a> </li>
+                            <li><a href="wishlist.jsp"><%=users.getUserEmail()%></a> </li>
                             <%}%>
-<<<<<<< HEAD
-                            <li><a href="wishlist.html">Sản phẩm gợi ý (0)</a> </li>
-                            <li><a href="account.html">  Tài khoản</a></li>
+
+                            <li><a href="wishlist.jsp">Sản phẩm gợi ý (0)</a> </li>
+                            <li><a href="account.jsp">  Tài khoản</a></li>
                             <li><a href="#"> Giỏ Hàng</a></li>
-                            <li><a href="checkout.html" >Thanh Toán</a> </li>	
-=======
-                            <li><a href="wishlist.html">WISH LIST (0)</a> </li>
-                            <li><a href="account.html">  Hoang The Thuong 1300 1246</a></li>
-                            <li><a href="#"> Pham Kim</a></li>
-                            <li><a href="checkout.html" >CHECKOUT</a> </li>	
->>>>>>> ae7e8f39e8a0c533526a60a88b872f4865d134c2
+                            <li><a href="checkout.jsp" >Thanh Toán</a> </li>	
+
+                           	
+
                             <li><div class="cart">
                                     <a href="#" class="cart-in"> </a>
                                     <span> <%=cart.countItem()%></span>
@@ -124,10 +121,10 @@
                                     %>
                             </ul>
                         </li> 						
-                         <li><a href="products.html" >  Áo thời trang</a></li>            
-                        <li><a href="products.html" >Áo mùa đông</a></li>						  				 
-                        <li><a href="products.html" >Áo mùa hè</a></li>
-                        <li><a href="products.html" >Áo dành cho trẻ em </a></li>
+                         <li><a href="product.jsp" >  Áo thời trang</a></li>            
+                        <li><a href="product.jsp" >Áo mùa đông</a></li>						  				 
+                        <li><a href="product.jsp" >Áo mùa hè</a></li>
+                        <li><a href="product.jsp" >Áo dành cho trẻ em </a></li>
                         
                         <li><a href="contact.jsp" >Liên hệ </a></li>
 
