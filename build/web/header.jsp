@@ -56,7 +56,7 @@
                             <%}%>
                             <li><a href="wishlist.html">WISH LIST (0)</a> </li>
                             <li><a href="account.html">  Hoang The Thuong 1300 1246</a></li>
-                            <li><a href="#"> Pham Kim Phuong Nam</a></li>
+                            <li><a href="#"> Pham Kim</a></li>
                             <li><a href="checkout.html" >CHECKOUT</a> </li>	
                             <li><div class="cart">
                                     <a href="#" class="cart-in"> </a>
