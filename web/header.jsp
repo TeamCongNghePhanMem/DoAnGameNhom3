@@ -54,10 +54,17 @@
                             <%if (users != null) {%>
                             <li><a href="wishlist.html"><%=users.getUserEmail()%></a> </li>
                             <%}%>
+<<<<<<< HEAD
                             <li><a href="wishlist.html">Sản phẩm gợi ý (0)</a> </li>
                             <li><a href="account.html">  Tài khoản</a></li>
                             <li><a href="#"> Giỏ Hàng</a></li>
                             <li><a href="checkout.html" >Thanh Toán</a> </li>	
+=======
+                            <li><a href="wishlist.html">WISH LIST (0)</a> </li>
+                            <li><a href="account.html">  Hoang The Thuong 1300 1246</a></li>
+                            <li><a href="#"> Pham Kim</a></li>
+                            <li><a href="checkout.html" >CHECKOUT</a> </li>	
+>>>>>>> ae7e8f39e8a0c533526a60a88b872f4865d134c2
                             <li><div class="cart">
                                     <a href="#" class="cart-in"> </a>
                                     <span> <%=cart.countItem()%></span>
