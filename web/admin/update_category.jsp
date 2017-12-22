@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Quản lý danh mục</title>
+        <title>Cập nhật danh mục</title>
         <c:set var="root" value="${pageContext.request.contextPath}"/>
         <link href="${root}/css/mos-style.css" rel='stylesheet' type='text/css' />
     </head>
@@ -25,7 +25,7 @@
         <div id="wrapper">
             <jsp:include page="menu.jsp"></jsp:include>
             <div id="rightContent">
-                <h3>Thông tin danh mục</h3>
+                <h3>Cập nhật danh mục</h3>
                 <form action="/shop/ManagerCategoryServlet" method="post">
                 <table width="95%">
                     <tr>
@@ -35,7 +35,8 @@
                     <tr>
                         <td></td>
                         <td>
-                            <input type="hidden" name="command" value="insert">
+                            <input type="hidden" name="command" value="update">
+                            <input type="hidden" name="category_id" value="<%=request.getParameter("category_id")%>">
                             <input type="submit" class="button" value="Lưu dữ liệu">
                         </td>
                     </tr>

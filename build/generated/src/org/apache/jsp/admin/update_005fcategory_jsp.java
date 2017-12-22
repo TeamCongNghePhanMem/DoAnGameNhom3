@@ -7,7 +7,7 @@ import model.Category;
 import java.util.ArrayList;
 import dao.CategoryDAO;
 
-public final class manager_005fcategory_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class update_005fcategory_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -65,7 +65,7 @@ public final class manager_005fcategory_jsp extends org.apache.jasper.runtime.Ht
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>Quản lý danh mục</title>\n");
+      out.write("        <title>Cập nhật danh mục</title>\n");
       out.write("        ");
       if (_jspx_meth_c_set_0(_jspx_page_context))
         return;
@@ -77,6 +77,10 @@ public final class manager_005fcategory_jsp extends org.apache.jasper.runtime.Ht
       out.write("    <body>\n");
       out.write("        ");
 
+            String error = "";
+            if(request.getParameter("error")!=null){
+                error = (String) request.getParameter("error");
+            }
             CategoryDAO categoryDAO = new CategoryDAO();
             ArrayList<Category> listCategory = categoryDAO.getListCategory();
         
@@ -89,20 +93,9 @@ public final class manager_005fcategory_jsp extends org.apache.jasper.runtime.Ht
       org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "menu.jsp", out, false);
       out.write("\n");
       out.write("            <div id=\"rightContent\">\n");
-      out.write("                <h3>Quản lý danh mục</h3>\n");
-      out.write("                <a href=\"");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${root}", java.lang.String.class, (PageContext)_jspx_page_context, null));
-      out.write("/admin/insert_category.jsp\">Thêm danh mục</a>\n");
-      out.write("                <table class=\"data\">\n");
-      out.write("                    <tr class=\"data\">\n");
-      out.write("                            \n");
-      out.write("                        <th class=\"data\" width=\"30px\">STT</th>\n");
-      out.write("                        <th class=\"data\">Mã danh mục</th>\n");
-      out.write("                        <th class=\"data\">Tên danh mục</th>\n");
-      out.write("                        <th class=\"data\" width=\"90px\">Tùy chọn</th>\n");
-      out.write("                            \n");
-      out.write("                    </tr>\n");
-      out.write("                        \n");
+      out.write("                <h3>Cập nhật danh mục</h3>\n");
+      out.write("                <form action=\"/shop/ManagerCategoryServlet\" method=\"post\">\n");
+      out.write("                <table width=\"95%\">\n");
       out.write("                    ");
 
                         int count = 0;
@@ -110,33 +103,24 @@ public final class manager_005fcategory_jsp extends org.apache.jasper.runtime.Ht
                             count++;
                     
       out.write("\n");
-      out.write("                    <tr class=\"data\">\n");
-      out.write("                        <td class=\"data\" width=\"30px\">");
-      out.print(count);
-      out.write("</td>\n");
-      out.write("                        <td class=\"data\">");
-      out.print(category.getCategoryID());
-      out.write("</td>\n");
-      out.write("                        <td class=\"data\">");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"float:right\"><b>Tên danh mục</b></td>\n");
+      out.write("                        <td><input type=\"text\" class=\"sedang\" name=\"tenDanhMuc\">");
       out.print(category.getCategoryName());
       out.write("</td>\n");
-      out.write("                        <td class=\"data\" width=\"90px\">\n");
-      out.write("                            <center>\n");
-      out.write("                                <a href=\"");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${root}", java.lang.String.class, (PageContext)_jspx_page_context, null));
-      out.write("/admin/update_category.jsp?command=update&category_id=");
-      out.print(category.getCategoryID());
-      out.write("\">Sửa</a>&nbsp;&nbsp; | &nbsp;&nbsp;\n");
-      out.write("                                <a href=\"/shop/ManagerCategoryServlet?command=delete&category_id=");
-      out.print(category.getCategoryID());
-      out.write("\">Xóa</a>\n");
-      out.write("                            </center>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td></td>\n");
+      out.write("                        <td>\n");
+      out.write("                            <input type=\"hidden\" name=\"command\" value=\"update\">\n");
+      out.write("                            <input type=\"hidden\" name=\"category_id\" value=\"");
+      out.print(request.getParameter("category_id"));
+      out.write("\">\n");
+      out.write("                            <input type=\"submit\" class=\"button\" value=\"Lưu dữ liệu\">\n");
       out.write("                        </td>\n");
       out.write("                    </tr>\n");
-      out.write("                    ");
-}
-      out.write("\n");
-      out.write("\t\t</table>\n");
+      out.write("                </table>\n");
+      out.write("                </form>\n");
       out.write("            </div>\n");
       out.write("            <div class=\"clear\"></div>\n");
       out.write("            ");
