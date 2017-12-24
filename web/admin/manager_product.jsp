@@ -20,7 +20,7 @@
             <jsp:include page="menu.jsp"></jsp:include>
             <div id="rightContent">
                 <h3>Sản phẩm</h3>
-	
+                    <a href="${root}/admin/insert_product.jsp">Thêm sản phẩm</a>
                     <table class="data">
 			<tr class="data">
                             <th class="data" width="30px">STT</th>
