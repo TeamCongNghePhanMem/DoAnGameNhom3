@@ -35,5 +35,17 @@ public class MD5 {
         }
         return str;
     }
+    
+    
+    public static void main (String [] arg) {
+    
+        String a = encryption( "thuong" ) ;
+        System.out.println ("star: ");
+        System.out.println (a);
+        String b = encryption("sy");
+        System.out.println ("Sy");
+        System.out.println("1548af1c94ad45584324df8f08baf227");
+        System.out.println (b);
+    } 
 
 }

@@ -34,7 +34,8 @@ public class BillDAO {
     
     public static void main(String[] args) throws SQLException {
         
-        new BillDAO().insertBill(new Bill(0, 0, 0, "s", "s", new Timestamp(new Date().getTime())));
+        new BillDAO().insertBill(new Bill(1, 0, 0, "s", "s", new Timestamp(new Date().getTime())));
+        System.out.print("ok");
     }
 
 }
