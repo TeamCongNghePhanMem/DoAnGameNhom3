@@ -13,28 +13,28 @@
     </head>
     <body>
         <div id="rightContent">
-            <h3>Dashboard</h3>
+            <h3>Bảng điều khiển</h3>
             <div class="quoteOfDay">
-            <b>Quote of the day :</b><br>
-            <i style="color: #5b5b5b;">"If you think you can, you really can"</i>
+            <b>Trích dẫn trong ngày :</b><br>
+            <i style="color: #5b5b5b;">"Nếu bạn nghĩ rằng bạn có thể, bạn thực sự có thể"</i>
             </div>
                     <div class="shortcutHome">
-                    <a href=""><img src="mos-css/admin/posting.png"><br>Tambah Posting</a>
+                    <a href=""><img src="../img/posting.png"><br>Tambah Posting</a>
                     </div>
                     <div class="shortcutHome">
-                    <a href=""><img src="mos-css/admin/photo.png"><br>Upload Foto</a>
+                    <a href=""><img src="../img/photo.png"><br>Upload Foto</a>
                     </div>
                     <div class="shortcutHome">
-                    <a href=""><img src="mos-css/admin/halaman.png"><br>Tambah Halaman</a>
+                    <a href=""><img src="../img/halaman.png"><br>Tambah Halaman</a>
                     </div>
                     <div class="shortcutHome">
-                    <a href=""><img src="mos-css/admin/template.png"><br>Pengaturan Template</a>
+                    <a href=""><img src="../img/template.png"><br>Pengaturan Template</a>
                     </div>
                     <div class="shortcutHome">
-                    <a href=""><img src="mos-css/admin/quote.png"><br>Tambah QOD</a>
+                    <a href=""><img src="../img/quote.png"><br>Tambah QOD</a>
                     </div>
                     <div class="shortcutHome">
-                    <a href=""><img src="mos-css/admin/bukutamu.png"><br>Data Buku Tamu</a>
+                    <a href=""><img src="../img/bukutamu.png"><br>Data Buku Tamu</a>
                     </div>
 
                     <div class="clear"></div>
