@@ -2,15 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/nbproject/build-impl.xml</file>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/src/java/dao/BillDetailDAO.java</file>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/test/dao/ProductDAOTest.java</file>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/test/dao/CategoryDAOTest.java</file>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/test/connect/DBConnectTest.java</file>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/src/java/dao/CategoryDAO.java</file>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/test/dao/BillDetailDAOTest.java</file>
-            <file>file:/C:/Users/Administrator/Desktop/husshop/src/java/dao/BillDAO.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

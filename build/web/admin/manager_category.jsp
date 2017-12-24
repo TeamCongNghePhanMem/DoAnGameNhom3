@@ -16,6 +16,13 @@
         <title>Quản lý danh mục</title>
         <c:set var="root" value="${pageContext.request.contextPath}"/>
         <link href="${root}/css/mos-style.css" rel='stylesheet' type='text/css' />
+        <script type="text/javascript">
+            function xacNhan(){
+                if(!window.confirm('Bạn có chắc là muốn xóa chuyên mục này không ?')){
+                    return false;
+                }
+            }
+        </script>
     </head>
     <body>
         <%
@@ -50,7 +57,7 @@
                         <td class="data" width="90px">
                             <center>
                                 <a href="${root}/admin/update_category.jsp?command=update&category_id=<%=category.getCategoryID()%>">Sửa</a>&nbsp;&nbsp; | &nbsp;&nbsp;
-                                <a href="/shop/ManagerCategoryServlet?command=delete&category_id=<%=category.getCategoryID()%>">Xóa</a>
+                                <a href="/shop/ManagerCategoryServlet?command=delete&category_id=<%=category.getCategoryID()%>" onclick="return xacNhan()">Xóa</a>
                             </center>
                         </td>
                     </tr>

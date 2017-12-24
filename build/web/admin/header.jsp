@@ -15,8 +15,8 @@
         <div id="header">
             <div class="inHeader">
 		<div class="mosAdmin">
-                    Hallo, Mas Administrator<br>
-                    <a href="">Lihat website</a> | <a href="">Help</a> | <a href="login.html">Keluar</a>
+                    Xin chào Admin<br>
+                    <a href="../">Xem trang web</a> | <a href="">Trợ Giúp</a> | <a href="login.jsp">Đăng xuất</a>
                 </div>
                 <div class="clear"></div>
             </div>
